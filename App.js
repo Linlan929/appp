@@ -6,6 +6,7 @@ import { View, StyleSheet, TouchableOpacity, Image } from 'react-native';
 
 import HomeScreen from './src/screens/HomeScreen';
 import ShopScreen from './src/screens/ShopScreen';
+import SearchScreen from './src/screens/SearchScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -62,7 +63,7 @@ export default function App() {
       <NavigationContainer>
         <Tab.Navigator tabBar={props => <MyTabBar {...props} />} screenOptions={{ headerShown: false }}>
           <Tab.Screen name="Home" component={HomeScreen} />
-          <Tab.Screen name="Search" component={View} /> 
+          <Tab.Screen name="Search" component={SearchScreen} /> 
           <Tab.Screen name="Shop" component={ShopScreen} />
           <Tab.Screen name="Profile" component={View} />
         </Tab.Navigator>
