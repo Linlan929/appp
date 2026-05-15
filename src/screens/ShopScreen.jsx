@@ -98,5 +98,5 @@ const styles = StyleSheet.create({
     borderWidth: 1.5,
     borderColor: 'rgba(74, 52, 40, 0.2)',
   },
-  itemPriceText: { marginTop: 10, fontSize: 15, color: '#4A3428', fontWeight: 'bold' },
+  itemPriceText: { marginTop: 10, fontSize: 15, color: '#63483b', fontWeight: 'bold' },
 });
